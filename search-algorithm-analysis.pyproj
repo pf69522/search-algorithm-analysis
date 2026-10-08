@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{a9afc026-34ca-4152-9b0e-b614b1dbb674}</ProjectGuid>
     <ProjectHome />
-    <StartupFile />
+    <StartupFile>phase_1_basic_testing\main.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -25,6 +25,7 @@
     <Folder Include="phase_1_basic_testing\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="algorithms.py" />
     <Compile Include="phase_1_basic_testing\main.py" />
     <Compile Include="phase_1_basic_testing\__init__.py" />
     <Compile Include="phase_2_randomized_testing\main.py" />
